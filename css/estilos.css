@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62,5%;
+  font-family: 'Montserrat', sans-serif; }
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal; }
+
+body {
+  z-index: 1; }
+
+header {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap; }
+
+menu {
+  z-index: 1000;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0 0.5rem; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #BF8F84;
+  letter-spacing: 10px;
+  font-size: 5rem;
+  line-height: 0.5rem;
+  padding-top: 1rem; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: #BF8F84;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F2DDD5; }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #A6372D;
+  letter-spacing: 2px;
+  padding: 1rem; }
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #A6372D;
+  letter-spacing: 2px;
+  padding: 1rem; }
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.1rem;
+  color: #A6372D;
+  padding: 1rem;
+  font-weight: bolder; }
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.1rem;
+  color: #A6372D;
+  padding: 1rem; }
+
+form {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center; }
+
+.index__video {
+  width: 100%;
+  height: auto; }
+
+.botones__index {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 1%; }
+
+.botones__index--detail {
+  margin-right: 1%;
+  margin-left: 1%; }
+
+.redes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+.redes--detail {
+  padding-left: 10%;
+  padding-right: 10%; }
+  .redes--detail.redes--detail:hover {
+    transform: scale(1.1); }
+
+.about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center; }
+
+.about__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #BF8F84;
+  letter-spacing: 10px;
+  font-size: 5rem;
+  line-height: 0.5rem;
+  padding-top: 1rem; }
+
+.about__hola {
+  display: flex;
+  margin-top: -2%;
+  padding-bottom: 5%;
+  justify-content: center;
+  align-content: center; }
+
+.about__texto {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 0.1rem;
+  color: #A6372D;
+  padding: 1rem;
+  display: inline-flex;
+  flex-flow: row wrap;
+  margin: 0%; }
+
+.about__texto--detail {
+  display: flex;
+  align-content: center;
+  text-align: left;
+  justify-content: center; }
+
+.about__img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center; }
+
+.about__img--detail {
+  border-radius: 15px 15px 15px 15px; }
+
+.design {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.design__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #BF8F84;
+  letter-spacing: 10px;
+  font-size: 5rem;
+  line-height: 0.5rem;
+  padding-top: 1rem; }
+
+.design__titulo__portfolio {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: #BF8F84;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F2DDD5; }
+
+.design__servicios__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: #BF8F84;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F2DDD5; }
+
+.design__servicios__titulo {
+  padding-right: 5%;
+  padding-left: 5%; }
+
+.fashion__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #BF8F84;
+  letter-spacing: 10px;
+  font-size: 5rem;
+  line-height: 0.5rem;
+  padding-top: 1rem; }
+
+.fashion__titulo__tips {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: #BF8F84;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F2DDD5; }
+
+.fashion__titulo__tips__videos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  animation-duration: 1.2s; }
+
+.fashion__titulo__tips__videos--details {
+  border-radius: 15px 15px 15px 15px; }
+  .fashion__titulo__tips__videos--details.fashion__titulo__tips__videos--details:hover {
+    transform: scale(1.1); }
+
+.fashion__servicios__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: #BF8F84;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F2DDD5; }
+
+.fashion__blog__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: #BF8F84;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F2DDD5; }
+
+.fashion__blog__titulo__img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+
+.fashion__blog__titulo__img__bloque {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center; }
+
+.fashion__blog__titulo__img__bloque--detail {
+  border-radius: 1000px 10px 1000px 1000px;
+  box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; }
+  .fashion__blog__titulo__img__bloque--detail.fashion__blog__titulo__img__bloque--detail:hover {
+    transform: scale(1.1); }
+
+.fashion__blog__botones {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem; }
+
+.fashion__instagram__titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1rem;
+  color: #BF8F84;
+  letter-spacing: 2px;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #F2DDD5; }
+
+.fashion__instagram__titulo__img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+
+.fashion__instagram__titulo__img--detail {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.1); }
+  .fashion__instagram__titulo__img--detail.fashion__instagram__titulo__img--detail:hover {
+    transform: rotate(10deg);
+    transition: all 1s;
+    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.1); }
+
+.formulario {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5%;
+  font-family: 'Montserrat', sans-serif; }
+
+.boton__contacto {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem; }
+
+.footer {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: left;
+  font-size: 0.7rem;
+  text-align: left;
+  color: black;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-decoration: none; }
